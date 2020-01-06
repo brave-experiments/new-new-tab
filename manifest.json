@@ -1,0 +1,10 @@
+{
+  "name": "New Tab Page Top Sites Prototype",
+  "version": "0.1",
+  "description": "Brave NTP with new top sites mechanism",
+  "permissions": [ "topSites", "chrome://favicon/*" ],
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
